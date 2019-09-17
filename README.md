@@ -31,7 +31,18 @@ Locally:
  
 #### Deployed:
 
- http://meet-in-the-middle-frontend.herokuapp.com/
+First, run a chrome browser without CORS by running the following command in your terminal:
+
+for OSX
+```
+open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args --user-data-dir="/tmp/chrome_dev_test" --disable-web-security
+```
+for Linux
+```
+google-chrome --disable-web-security
+```
+
+http://meet-in-the-midl.herokuapp.com/
  
  ### How to run the tests:
  
@@ -44,8 +55,6 @@ Locally:
  
  ### Approach to the project:
  
- 
-
  ### Tech stack:
  
  Rails API  
@@ -57,13 +66,10 @@ Locally:
  Jest  
  Travis CI  
 
- 
 ### Troubleshooting  
 
 Should you have any trouble running the app in your browser, run the following in your terminal which will open a new Chrome browser:  
 ```open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args --user-data-dir="/tmp/chrome_dev_test" --disable-web-security```  
 
- 
 ### Contribution  
  If you would like to contribute to this project, please submit a pull request at our [github page](https://github.com/gennyallcroft). 
- 
